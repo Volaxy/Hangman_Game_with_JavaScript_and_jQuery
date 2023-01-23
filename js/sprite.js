@@ -27,7 +27,7 @@ class Sprite {
     }
 
     isFinished() {
-        return this.hasNextFrame();
+        return !this.hasNextFrame();
     }
 
     hasNextFrame() {
